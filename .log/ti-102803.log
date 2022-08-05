@@ -1,0 +1,86 @@
+[17:47:51.588] Global cache location '/home/rishavmngo/.cache/typescript/4.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[17:47:51.595] Processing cache location '/home/rishavmngo/.cache/typescript/4.7'
+[17:47:51.595] Trying to find '/home/rishavmngo/.cache/typescript/4.7/package.json'...
+[17:47:51.597] Loaded content of '/home/rishavmngo/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.603"},"devDependencies":{"@types/aria-query":"^5.0.0","@types/node-fetch":"^2.6.2","@types/react":"^18.0.15","@types/react-dom":"^18.0.6","@types/react-router":"^5.1.18","@types/react-router-dom":"^5.3.3","@types/sass":"^1.43.1","@types/testing-library__jest-dom":"^5.14.5"}}
+[17:47:51.597] Loaded content of '/home/rishavmngo/.cache/typescript/4.7/package-lock.json'
+[17:47:51.624] Adding entry into typings cache: 'aria-query' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/aria-query/index.d.ts'
+[17:47:51.632] Adding entry into typings cache: 'node-fetch' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/node-fetch/index.d.ts'
+[17:47:51.637] Adding entry into typings cache: 'react' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/react/index.d.ts'
+[17:47:51.641] Adding entry into typings cache: 'react-dom' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/react-dom/index.d.ts'
+[17:47:51.646] Adding entry into typings cache: 'react-router' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/react-router/index.d.ts'
+[17:47:51.651] Adding entry into typings cache: 'react-router-dom' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/react-router-dom/index.d.ts'
+[17:47:51.652] Adding entry into typings cache: 'sass' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/sass/index.d.ts'
+[17:47:51.655] Adding entry into typings cache: 'testing-library__jest-dom' => '/home/rishavmngo/.cache/typescript/4.7/node_modules/@types/testing-library__jest-dom/index.d.ts'
+[17:47:51.655] Finished processing cache location '/home/rishavmngo/.cache/typescript/4.7'
+[17:47:51.656] Process id: 102829
+[17:47:51.656] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[17:47:51.656] validateDefaultNpmLocation: false
+[17:47:51.656] Npm config file: /home/rishavmngo/.cache/typescript/4.7/package.json
+[17:47:51.657] Updating types-registry npm package...
+[17:47:51.657] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[17:47:53.797]     Succeeded. stdout:
+    
+    up to date, audited 38 packages in 2s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[17:47:53.797] Updated types-registry npm package
+[17:47:53.838] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/rishavmngo/test/script.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/rishavmngo/test","kind":"discover"}
+[17:47:53.859] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[17:47:53.860] Explicitly included types: []
+[17:47:53.861] Inferred typings from unresolved imports: []
+[17:47:53.861] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:47:53.861] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:47:53.862] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/bower_components
+[17:47:53.862] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:47:53.865] Elapsed:: 2.7922750003635883ms DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:47:53.865] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/node_modules
+[17:47:53.865] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:47:53.866] Elapsed:: 0.1798049993813038ms DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[17:47:53.866] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:47:53.866] Response has been sent.
+[17:47:53.866] No new typings were requested as a result of typings discovery
+[17:48:00.593] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/rishavmngo/test/script.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"projectRootPath":"/home/rishavmngo/test","kind":"discover"}
+[17:48:00.594] Explicitly included types: []
+[17:48:00.594] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:48:00.594] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:48:00.594] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"kind":"action::set"}
+[17:48:00.595] Response has been sent.
+[17:48:00.595] No new typings were requested as a result of typings discovery
+[17:51:29.529] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/rishavmngo/test/index.html"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/rishavmngo/test","kind":"discover"}
+[17:51:29.530] Explicitly included types: []
+[17:51:29.530] Inferred typings from unresolved imports: []
+[17:51:29.530] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:51:29.530] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:51:29.530] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/bower_components
+[17:51:29.530] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[17:51:29.530] Elapsed:: 0.041127000004053116ms DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[17:51:29.531] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/node_modules
+[17:51:29.531] DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[17:51:29.531] Elapsed:: 0.023754999972879887ms DirectoryWatcher:: Added:: WatchInfo: /home/rishavmngo/test/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[17:51:29.531] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:51:29.531] Response has been sent.
+[17:51:29.531] No new typings were requested as a result of typings discovery
+[17:56:03.329] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/rishavmngo/test/index.html"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/rishavmngo/test","kind":"discover"}
+[17:56:03.329] Explicitly included types: []
+[17:56:03.330] Inferred typings from unresolved imports: []
+[17:56:03.330] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:56:03.330] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:56:03.330] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:56:03.330] Response has been sent.
+[17:56:03.330] No new typings were requested as a result of typings discovery
+[17:58:05.135] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/rishavmngo/test/script.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"projectRootPath":"/home/rishavmngo/test","kind":"discover"}
+[17:58:05.136] Explicitly included types: []
+[17:58:05.136] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:58:05.136] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/rishavmngo/test/bower_components","/home/rishavmngo/test/node_modules"]}
+[17:58:05.136] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"kind":"action::set"}
+[17:58:05.136] Response has been sent.
+[17:58:05.136] No new typings were requested as a result of typings discovery

@@ -1,0 +1,118 @@
+:root{
+    --circle-outer-radius: 150px;
+    --circle-inner-radius: 130px;
+    --circle-most-inner-radius: 25px;
+}
+.circle{
+    width: var(--circle-outer-radius);
+    height: var(--circle-outer-radius);
+    color: red;
+    background-color: #002E67;
+    border-radius: 100%;
+    position: relative;
+    top: 218px;
+    left: 50%; 
+    transform: translate(-50%);
+}
+
+.circle::after{
+    content: '';
+    position: absolute;
+    width: var(--circle-inner-radius);
+    height: var(--circle-inner-radius);
+    background: white;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+}
+
+.circle::before{
+    content: '';
+    position: absolute;
+    width: var(--circle-most-inner-radius);
+    height: var(--circle-most-inner-radius);
+    /* width: 5px; */
+    /* height: 5px; */
+    background: #002E67;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 10;
+}
+
+.spoke{
+    width: 150px;
+    height: 5px;
+    background: #002E67;
+    position: absolute;
+    top: calc((160px / 2) + 218px) ; 
+    left: 42.1%; 
+}
+
+.spoke-1{
+    transform: rotate(calc(15deg * 1));
+}
+
+
+.spoke-2{
+    transform: rotate(calc(15deg * 2));
+}
+
+.spoke-3{
+    transform: rotate(calc(15deg * 3));
+}
+
+.spoke-4{
+    transform: rotate(calc(15deg * 4));
+}
+
+.spoke-5{
+    transform: rotate(calc(15deg * 5));
+}
+.spoke-6{
+    transform: rotate(calc(15deg * 6));
+}
+.spoke-7{
+    transform: rotate(calc(15deg * 7));
+}
+.spoke-8{
+    transform: rotate(calc(15deg * 8));
+}
+.spoke-9{
+    transform: rotate(calc(15deg * 9));
+}
+.spoke-10{
+    transform: rotate(calc(15deg * 10));
+}
+.spoke-11{
+    transform: rotate(calc(15deg * 11));
+}
+.spoke-12{
+    transform: rotate(calc(15deg * 12));
+}
+
+.flag-1{
+    width: 150%;
+    height: 200px;
+    background: #E0760F;
+    position: absolute;
+}
+.flag-2{
+    width: 150%;
+    height: 200px;
+    background: white;
+    position: absolute;
+    top: 200px;
+}
+
+.flag-3{
+    width: 150%;
+    height: 200px;
+    background:  #148E0F;
+    position: absolute;
+    top: 400px;
+}
